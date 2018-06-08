@@ -2,7 +2,7 @@
   "name": "phpdocumentor/template-installer-plugin",
   "type": "composer-plugin",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-0": {"phpDocumentor\\Composer": "src/"}
   },
