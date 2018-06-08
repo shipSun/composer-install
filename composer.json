@@ -4,7 +4,9 @@
   "license": "MIT",
   "minimum-stability": "stable",
   "autoload": {
-    "psr-4": {"phpDocumentor\\Composer": "src/"}
+    "psr-4": {
+      "phpDocumentor\\Composer\\":"src/"
+    }
   },
   "extra": {
     "class": "phpDocumentor\\Composer\\TemplateInstallerPlugin"
