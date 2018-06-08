@@ -7,7 +7,7 @@
     "psr-0": {"phpDocumentor\\Composer": "src/"}
   },
   "extra": {
-    "class": "phpDocumentor\\Composer\\TemplateInstallerPlugin"
+    "class": "phpDocumentor\Composer\TemplateInstallerPlugin"
   },
   "require": {
     "composer-plugin-api": "*"
