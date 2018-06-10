@@ -21,11 +21,12 @@ class TemplateInstaller extends LibraryInstaller
      */
     public function getPackageBasePath(PackageInterface $package)
     {
-        $prefix = substr($package->getPrettyName(), 0, 23);
-
-        return '/data/templates/'.substr($package->getPrettyName(), 23);
+        return 'data/templates/src';
     }
-
+    public function getInstallPath(PackageInterface $package)
+    {
+        return 'data/templates/';
+    }
     /**
      * {@inheritDoc}
      */
