@@ -22,7 +22,7 @@ class TemplateInstaller extends LibraryInstaller
 
     public function getInstallPath(PackageInterface $package)
     {
-        return 'data/templates/'$package->getPrettyName().'/';
+        return 'data/templates/'.$package->getPrettyName().'/';
     }
     /**
      * {@inheritDoc}
