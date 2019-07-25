@@ -1,5 +1,5 @@
 {
-  "name": "phpdocumentor/template-installer-plugin",
+  "name": "ship-sun/template-installer-plugin",
   "type": "composer-plugin",
   "license": "MIT",
   "minimum-stability": "stable",
